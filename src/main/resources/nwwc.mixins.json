@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "galysso.codicraft.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"UtilsMixin",
+		"NumismaticOverhaulMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
