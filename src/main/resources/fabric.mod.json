@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
-	"id": "codicraft_nwwc",
+	"id": "codicraft_nbc",
 	"version": "${version}",
-	"name": "Numismatic-WraithWaystones-Compat",
-	"description": "Mod to create compatibility between Numismatic-Overhaul and Wraith Waystones",
+	"name": "Numismatic-Bountiful-Compat",
+	"description": "Mod to create compatibility between Numismatic-Overhaul and Bountiful",
 	"authors": [
 		"Galysso"
 	],
@@ -16,11 +16,11 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"galysso.codicraft.NumismaticWraithWaystonesCompatMain"
+			"galysso.codicraft.NumismaticBountifulCompatMain"
 		]
 	},
 	"mixins": [
-		"nwwc.mixins.json"
+		"nbc.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.10",
